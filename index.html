@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/watch.js"></script>
+</head>
+
+<body onload="Watch()">
+    <nav class="navbar navbar-fixed-top" id="top-menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" id="btnMob" data-toggle="collapse" data-target="#navik" aria-expanded="false"><a href="#"><b>Меню</b></a></button>
+                    <div id="tes"><a href="main.html" target="frame1">#Landshaft</a></div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navik">
+                    <ul class="nav navbar-nav">
+                        <li><a href="main.html" target="frame1">Главная</a></li>
+                        <li><a href="galery.html" target="frame1">Галерея</a></li>
+                        <li><a href="about.html" target="frame1">О Нас</a></li>
+                        <li><a href="order.html" target="frame1">Заказать</a></li>
+                    </ul>
+                    <p id="watch" class="hidden-xs hidden-sm"></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="content">
+        <div id="frame">
+            <iframe frameborder="0" src="main.html" scrolling="no" name="frame1"></iframe>
+        </div>
+    </div>
+
+    <a href="#" title="Вернуться к началу" class="topbutton"></a>
+    
+    <footer id="footer">
+        <p>© 2016 Skyline</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
