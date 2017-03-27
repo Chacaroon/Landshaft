@@ -141,8 +141,9 @@ p, li{
     margin: auto;
 }
 
-#info li {
+#info li, p {
     list-style: none;
+    font-size: 1.8vw;
 }
 /*!=====Galery=====*/
 
