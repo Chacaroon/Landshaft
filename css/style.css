@@ -13,6 +13,10 @@ p, li{
     font-size: 1.4vw;
 }
 
+h2 {
+    font-size: 1.9vw;
+}
+
 /*=====Header=====*/
 #top-menu {
     background: #EDEDED;
@@ -156,9 +160,9 @@ p, li{
 
 /*=====About=====*/
 #about img {
-    width: 80px;
+    width: 8%;
     float: left;
-    border: 15px solid lightgray;
+    border: 1.3vw solid lightgray;
     margin: -4px 10px 5px 0;
 }
 
