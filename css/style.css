@@ -1,12 +1,8 @@
 html, body {
     font-family: Tahoma;
-    background-attachment: fixed;
-    border-top: 2px solid #e6a100;
     position: relative;
-    padding: 0px;
     background-color: rgb(121, 189, 143);
     height: 100%;
-    overflow-x: hidden;
 }
 
 p, li{
@@ -17,16 +13,27 @@ h2 {
     font-size: 1.9vw;
 }
 
+#cont {
+    min-height: 100%;
+}
+
+#Mtable {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+#Mtable iframe {
+    overflow-y: auto;
+}
+
 /*=====Header=====*/
 #top-menu {
     background: #EDEDED;
     height: 54px;
-    border-top: 1px solid #fafafa;
     border-bottom: 2px solid #3B5998;
-    top: 0;
     z-index:9999;
     box-shadow: 0 0 20px #616161;
-    margin-bottom: 10px;
 }
 
 #top-menu a {
@@ -80,7 +87,7 @@ h2 {
 
 /*=====Main=====*/
 #content {
-    height: 2000px;
+    height: 88vh;
 }
 
 #center {
@@ -92,7 +99,6 @@ h2 {
     color: black;
     box-shadow: 0 0 15px #000000;
     filter: alpha(Opacity=70);
-    margin-top: 60px;
 }
 
 #tex {
@@ -197,11 +203,9 @@ a.topbutton:hover{
 #footer {
     background: #EDEDED;
     border-top: 2px solid #3B5998;
-    border-bottom: 1px solid #3B5998;
     z-index:9999;
     box-shadow: 0 0 20px #616161;
     text-align: center;
     font-size: 20px;
-    margin-top: 10px;
 }
 /*!=====Footer=====*/

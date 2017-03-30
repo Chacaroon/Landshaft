@@ -13,38 +13,44 @@
 </head>
 
 <body onload="Watch()">
-    <nav class="navbar navbar-fixed-top" id="top-menu">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" id="btnMob" data-toggle="collapse" data-target="#navik" aria-expanded="false"><a href="#"><b>Меню</b></a></button>
-                    <div id="tes"><a href="main.html" target="frame1">#Landshaft</a></div>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navik">
-                    <ul class="nav navbar-nav">
-                        <li><a href="main.html" target="frame1">Главная</a></li>
-                        <li><a href="galery.html" target="frame1">Галерея</a></li>
-                        <li><a href="about.html" target="frame1">О Нас</a></li>
-                        <li><a href="order.html" target="frame1">Заказать</a></li>
-                    </ul>
-                    <p id="watch" class="hidden-xs"></p>
-                </div>
+    <table id="Mtable">
+        <tr>
+            <td height="1px">
+                <nav class="navbar navbar-top" id="top-menu">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" id="btnMob" data-toggle="collapse" data-target="#navik" aria-expanded="false"><a href="#"><b>Меню</b></a></button>
+                <div id="tes"><a href="main.html" target="frame1">#Landshaft</a></div>
             </div>
-        </div>
-    </nav>
 
-    <div class="container" id="content">
-        <div id="frame">
-            <iframe frameborder="0" src="main.html" scrolling="no" name="frame1"></iframe>
-        </div>
-    </div>
+            <div class="collapse navbar-collapse" id="navik">
+                <ul class="nav navbar-nav">
+                    <li><a href="main.html" target="frame1">Главная</a></li>
+                    <li><a href="galery.html" target="frame1">Галерея</a></li>
+                    <li><a href="about.html" target="frame1">О Нас</a></li>
+                    <li><a href="order.html" target="frame1">Заказать</a></li>
+                </ul>
+                <p id="watch" class="hidden-xs"></p>
+            </div>
+        </nav>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container" id="content">
+                    <div id="frame">
+                        <iframe frameborder="0" src="main.html" scrolling="yes" name="frame1"></iframe>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="hidden-xs" id="footer" height="1px">
+                © 2016 Skyline
+            </td>
+        </tr>
+    </table>
 
-    <a href="#" title="Вернуться к началу" class="topbutton"></a>
-    
-    <footer class="hidden-xs" id="footer">
-        <p>© 2016 Skyline11</p>
-    </footer>
+    <a href="#top" title="Вернуться к началу" class="topbutton"></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
