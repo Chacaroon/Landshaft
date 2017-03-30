@@ -29,8 +29,8 @@ h2 {
 
 /*=====Header=====*/
 #top-menu {
+
     background: #EDEDED;
-    height: 54px;
     border-bottom: 2px solid #3B5998;
     z-index:9999;
     box-shadow: 0 0 20px #616161;
@@ -56,14 +56,17 @@ h2 {
     background: #e66b25;
 }
 
-#tes {
-    padding: 6px 15px 0 5px;
-    float: left;
+#top-menu li {
+    height: 100%;
 }
 
-#tes a {
+#tes {
+    height: 100%;
+    float: left
+}
+
+#tes a{
     color: #3B5998;
-    font-size: 33px;
 }
 
 #watch{
