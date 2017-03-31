@@ -3,6 +3,7 @@ html, body {
     position: relative;
     background-color: rgb(121, 189, 143);
     height: 100%;
+    overflow-x: hidden;
 }
 
 p, li{
@@ -90,7 +91,7 @@ h2 {
 
 /*=====Main=====*/
 #content {
-    height: 88vh;
+    height: 95%;
 }
 
 #center {
@@ -102,6 +103,10 @@ h2 {
     color: black;
     box-shadow: 0 0 15px #000000;
     filter: alpha(Opacity=70);
+}
+
+#tdcent{
+    height: 100%;
 }
 
 #tex {
@@ -127,7 +132,7 @@ h2 {
     width: 100%;
 }
 
-#frame, iframe {
+iframe {
     height: 100%;
     width: 100%;
 }
