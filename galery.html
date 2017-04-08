@@ -1,15 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="ru">
 <head>
-	<title>Галлерея</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landshaft</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="import" href="../partials/partials.html">
+
+    <script src="../js/watch.js"></script>
 </head>
 
-<body bgcolor="#79BD8F" onload="loadImg()">
+<body onload="Watch(); loadImg()">
 
-	<script type="text/javascript" src="js/galery.js"></script>
-
+<div class="container">
     <div id="center">
         <div id="tex">
             <h1>Ландшафт</h1>
@@ -18,12 +24,20 @@
         <div class="tex1">
             <div id="gallery">
                 <div id="thumbs">
-                    <img src="img/picture.jpg" alt="Описание">
+                    <img src="../img/picture.jpg" alt="Описание">
                     <table id="imgTable"></table>
                 </div>
             </div>
         </div>
         <a href="#top" title="Вернуться к началу" class="topbutton hidden-xs"></a>
     </div>
+</div>
+
+<a href="#top" title="Вернуться к началу" class="topbutton"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../partials"></script>
+<script src="../js/galery.js"></script>
 </body>
 </html>
