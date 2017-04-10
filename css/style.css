@@ -135,7 +135,9 @@ h2 {
     float: left;
     margin-right: 6px;
 }
+/*!=====Galery=====*/
 
+/*=====Order=====*/
 #order table {
     margin: auto;
     text-align: center;
@@ -145,22 +147,22 @@ h2 {
     text-align: center;
 }
 
-#order li, #order p, #order h1 {
-    list-style: none;
-    font-size: 2.5vw;
+#order h1 {
+    font-size: 2vw;
 }
-/*!=====Galery=====*/
+/*!=====Order=====*/
 
 /*=====About=====*/
 #about img {
-    width: 8%;
+    width: 10%;
     float: left;
-    border: 1.3vw solid lightgray;
+    border: 1vw solid lightgray;
     margin: -4px 10px 5px 0;
 }
 
 #about h2 {
     clear: left;
+    font-size: 1.9vw;
 }
 /*!=====About=====*/
 

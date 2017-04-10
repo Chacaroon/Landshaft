@@ -7,7 +7,7 @@ function loadImg() {
 	if(count === 0 || count % 3 === 0) { // условие выполняется при запуске функции и каждой четвёртой картинке
 			tr = document.createElement('tr'); // создаём новую строку
 			table.appendChild(tr); // вставляем её в таблицу
-	};
+	}
 
 	count++; // переходим к следующему изображению
 	td = document.createElement('td'); // создаём ячейку
@@ -24,4 +24,4 @@ function loadImg() {
 		document.getElementById('img-' + count).onload = loadImg; // если изображение загрузилось, то функция запускается снова
 		document.getElementById('img-' + count).onerror = function() {tr.removeChild(td);} // если изображение не загрузилось, то удаляем ячейку, выполнение скрипта останавливается
 	};
-};
+}
