@@ -1,5 +1,5 @@
 var p = document.createElement('p');
-p.className = 'hidden-xs';
+p.className = 'hidden-sm';
 p.id='watch';
 
 setInterval(function () {
